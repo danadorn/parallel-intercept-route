@@ -1,12 +1,13 @@
-export default function PhotoPage({
+export default async function PhotoPage({
   params,
 }: {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }) {
+  const { id } = await params;
   return (
     <div style={{ padding: "100px", textAlign: "center" }}>
       <h1>Photo ID</h1>
-      <p>Hello {params.id}</p>
+      <p>Hello {id}</p>
     </div>
   );
 }

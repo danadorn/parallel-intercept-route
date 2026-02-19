@@ -26,7 +26,7 @@ export default function PhotoModal({
 const overlay: React.CSSProperties = {
   position: "fixed",
   inset: 0,
-  background: "rgba(0,0,0,0.5)",
+  background: "rgba(123, 31, 31, 0.5)",
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
