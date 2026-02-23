@@ -1,6 +1,6 @@
 export default function RootLayout({
   children,
-  modal,
+  modal
 }: {
   children: React.ReactNode;
   modal: React.ReactNode;

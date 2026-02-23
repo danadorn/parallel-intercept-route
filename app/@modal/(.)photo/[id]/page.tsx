@@ -16,8 +16,8 @@ export default function PhotoModal({
           ✕
         </button>
 
-        <h2>Photo ID</h2>
-        <p>Hello {params.id}</p>
+        <h2>Photo ID {params.id}</h2>
+        <p>Description</p>
       </div>
     </div>
   );
@@ -26,7 +26,7 @@ export default function PhotoModal({
 const overlay: React.CSSProperties = {
   position: "fixed",
   inset: 0,
-  background: "rgba(123, 31, 31, 0.5)",
+  background: "rgba(182, 182, 182, 0.81)",
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
